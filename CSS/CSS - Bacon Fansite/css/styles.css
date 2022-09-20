@@ -1,0 +1,28 @@
+body{
+    background-color: #ffba08;
+    font-family: "Bebas Neue",monospace;
+}
+
+h1 {
+    color: #03071e;
+    font-size: 90px;
+}
+
+p{
+    color: #03071e;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#paragraph{
+    color:#03071e;
+} /*This changes the "p" attribute that has "paragraph" id*/
+
+.bacon{
+    background-color: #f48c06; 
+    border-radius: 20%;
+} /*This changes the "bacon" selector attributes*/
+
+.bacon:hover{
+    background-color: #dc2f02;
+}

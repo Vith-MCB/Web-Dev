@@ -1,0 +1,40 @@
+body{margin: 0;}
+
+.topContainer{
+    background-color: #F2F2F2;
+    /*Dimensions*/
+    height: 200px;
+    width: 200px;
+    
+    border: solid 10px;
+
+    /*Position*/
+    padding: 20px;
+
+}
+
+
+.middleContainer{
+    background-color: blue;
+    /*Dimensions*/
+    height: 200px;
+    width: 200px;
+
+    border: solid 20px;
+
+    /*Position*/
+    margin-left: 260px;
+
+}
+
+.bottomContainer{
+    background-color: red;
+    /*Dimensions*/
+    height: 200px;
+    width: 200px;
+
+    border: solid 10px;
+
+    /*Position*/
+    margin-left: 500px;
+}

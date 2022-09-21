@@ -1,3 +1,15 @@
-body{
+.topContainer{
+    background-color: #F2F2F2;
+}
+
+.middleContainer{
     background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.bottomContainer{
+    background-color: red;
+    height: 200px;
+    width: 200px;
 }

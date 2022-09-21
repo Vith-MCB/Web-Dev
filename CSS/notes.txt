@@ -1,0 +1,11 @@
+### Display:
+
+Block - It size can be changed, although it occupies the entire line
+
+Inline - It size can't be changed, and it only occupies the necessary space
+
+Inline-Block - The size can be changed and it just occupies the necessary space
+
+None - It displays nothing (get rid of the element)
+
+### Position:

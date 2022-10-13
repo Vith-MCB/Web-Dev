@@ -1,20 +1,25 @@
+body{ 
+    text-align: center;
+}
+
 .topContainer{
     background-color: #F2F2F2;
-
+    padding-top: 100px;
+    position: relative;
 }
 
-.middleContainer{
-    background-color: blue;
-    /*Dimensions*/
-    height: 200px;
-    width: 200px;
-
+#cloud{
+    right: 300px;
+    top: 50px;
+    position: absolute;
 }
 
-.bottomContainer{
-    background-color: red;
-    /*Dimensions*/
-    height: 200px;
-    width: 200px;
+#bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
 
+.myname{
+    font-family: 'Sacramento', cursive;
 }

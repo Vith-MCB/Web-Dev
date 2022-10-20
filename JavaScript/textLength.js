@@ -7,4 +7,6 @@ if (charLeft >= 0){
     alert("You have writen " + textLength + ", you have "+ charLeft + " characters left.");
 } else {
     alert("You can only write 240 characters.");
+    var slicedText = userText.slice(0,241);
+    alert("Your current text is: " + slicedText);
 }

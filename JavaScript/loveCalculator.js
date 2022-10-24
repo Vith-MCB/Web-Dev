@@ -4,4 +4,9 @@ function calculateLove (){
 }
 
 var love = calculateLove();
-console.log(love+"%");
+
+if(love > 70){
+    alert("You love each other like Kanye loves Kanye");
+} else{
+    alert("Your love score is " + love + "%");
+}

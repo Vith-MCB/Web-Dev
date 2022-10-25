@@ -1,6 +1,6 @@
-var i = 0; //Variable to be used at FOR loop
 var array = [];
-for(i; i<100; i++){
+
+for(var i = 0; i<100; i++){
     var number = i + 1;
     if(number % 3 === 0){
         if(number % 5 === 0){
@@ -16,3 +16,5 @@ for(i; i<100; i++){
         array.push(number);
     }
 }
+
+console.log(array)

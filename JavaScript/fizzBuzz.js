@@ -1,17 +1,18 @@
-var i = 0;
+var i = 0; //Variable to be used at FOR loop
+var array = [];
 for(i; i<100; i++){
-    number = i + 1;
+    var number = i + 1;
     if(number % 3 === 0){
         if(number % 5 === 0){
-            console.log("FIZZBUZZ");
+            array.push("FIZZBUZZ");
         } else {
-            console.log("FIZZ");
+            array.push("FIZZ");
         }
     }
     else if(number % 5 === 0){
-        console.log("BUZZ");
+        array.push("BUZZ");
     }
     else{
-        console.log(number);
+        array.push(number);
     }
 }

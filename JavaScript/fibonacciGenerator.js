@@ -16,6 +16,7 @@ function fibonacciGenerator (n) {
         }
     }
     return array;
+    
 }
 
     
